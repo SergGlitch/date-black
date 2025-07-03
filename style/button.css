@@ -1,0 +1,49 @@
+/* From Uiverse.io by vaibhavchandranv */ 
+.button {
+  font-family: Inter, sans-serif;
+  cursor: pointer;
+  background: #000000;
+  color: #ffffff;
+  border-color: white;
+  padding: 7px 20px;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 100px;
+  transition: all 0.5s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.button:hover {
+  scale: 1.1;
+}
+
+.button:active {
+  scale: 1;
+}
+
+.button:hover .icon {
+  fill: #0084ff;
+  scale: 1.1;
+  rotate: 360deg;
+  filter: drop-shadow(0 0 5px rgba(0, 195, 255, 0.8))
+    drop-shadow(0 0 10px rgba(13, 130, 134, 0.6));
+}
+
+.button:hover .text {
+  filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.2))
+    drop-shadow(0 0 10px rgba(255, 255, 255, 0.4));
+}
+
+.text {
+  transition: all 1s ease;
+}
+
+.icon {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin-top: -3px;
+  transition: all 1s ease;
+}
